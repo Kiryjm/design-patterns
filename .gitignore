@@ -1,0 +1,16 @@
+bin/
+obj/
+/packages/
+.idea
+/out
+/sc-standings-api.sln.DotSettings.user
+.vs/sc-standings-api/v17/.suo
+.vs/sc-standings-api/project-colors.json
+.vs/sc-standings-api/DesignTimeBuild/.dtbcache.v2
+.vs/sc-standings-api/v17/.futdcache.v1
+.vs/sc-standings-api/v17/HierarchyCache.v1.txt
+.vs/sc-standings-api/v17/fileList.bin
+.vs/slnx.sqlite
+.vs/sc-standings-api/v17/TestStore/0/000.testlog
+.vs/sc-standings-api/v17/TestStore/0/testlog.manifest
+.vs/
