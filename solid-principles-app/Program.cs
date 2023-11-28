@@ -6,11 +6,15 @@ using System.Diagnostics;
 using System.IO;
 using static System.Console;
 
-var rc = new Rectangle(3, 2);
-Helper.UseIt(rc);
-//Expect area of 30, got 30
+var parent = new Person { Name = "John" };
+var child1 = new Person { Name = "Chris" };
+var child2 = new Person { Name = "Matt" };
 
-var sq = new Square(5);
-Helper.UseIt(sq);
-//Expect area of 50, got 100
-// if we try to override Width, Height for Square
+var relationships = new Relationships();
+relationships.AddParentAndChild(parent, child1);
+relationships.AddParentAndChild(parent, child2);
+
+new Research(relationships);
+// Output:
+//John has child called Chris
+// John has child called Matt
