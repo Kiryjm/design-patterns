@@ -2,9 +2,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SingleResponsibility {
+namespace SingleResponsibility
+{
 
-   // just stores a couple of journal entries and ways of
+  // just stores a couple of journal entries and ways of
   // working with them
   public class Journal
   {
@@ -36,12 +37,12 @@ namespace SingleResponsibility {
 
     public void Load(string filename)
     {
-      
+
     }
 
     public void Load(Uri uri)
     {
-      
+
     }
   }
 
