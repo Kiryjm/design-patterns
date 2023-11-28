@@ -6,16 +6,39 @@ using System.Diagnostics;
 using System.IO;
 using static System.Console;
 
-var j = new Journal();
-j.AddEntry("I cried today");
-j.AddEntry("I write code");
-Console.WriteLine();
+ var apple = new Product("Apple", Color.Green, Size.Small);
+      var tree = new Product("Tree", Color.Green, Size.Large);
+      var house = new Product("House", Color.Blue, Size.Large);
 
- var p = new PersistenceManager();
-      var filename = @"D:\My programs\journal.txt";
-      p.SaveToFile(j, filename);
+      Product[] products = {apple, tree, house};
+
+      var pf = new ProductFilter();
       
-      var psi = new ProcessStartInfo();
-      psi.FileName = filename;
-      psi.UseShellExecute = true;
-      Process.Start(psi);
+      WriteLine("Green products (old):");
+      foreach (var p in pf.FilterByColor(products, Color.Green))
+        WriteLine($" - {p.Name} is green");
+
+      // ^^ BEFORE
+
+      // vv AFTER
+      var bf = new BetterFilter();
+      WriteLine("Green products (new):");
+      foreach (var p in bf.Filter(products, new ColorSpecification(Color.Green)))
+        WriteLine($" - {p.Name} is green");
+
+      WriteLine("Large products");
+      foreach (var p in bf.Filter(products, new SizeSpecification(Size.Large)))
+        WriteLine($" - {p.Name} is large");
+
+      var largeGreenSpec = new ColorSpecification(Color.Green) 
+                           & new SizeSpecification(Size.Large);
+      //var largeGreenSpec = Color.Green.And(Size.Large);
+      
+      WriteLine("Large blue items");
+      foreach (var p in bf.Filter(products,
+        new AndSpecification<Product>(new ColorSpecification(Color.Blue), 
+          new SizeSpecification(Size.Large)))
+      )
+      {
+        WriteLine($" - {p.Name} is big and blue");
+      }
