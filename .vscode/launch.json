@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/solid-principles-app/bin/Debug/net7.0/SolidPrinciplesApp.dll",
+            "program": "${workspaceFolder}/patterns-app/bin/Debug/net7.0/patterns-app.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/solid-principles-app",
+            "cwd": "${workspaceFolder}/patterns-app",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
