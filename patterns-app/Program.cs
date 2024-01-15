@@ -1,8 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-// using BuilderParameter;
+ var pb = new PersonBuilder();
+      Person person = pb
+        .Lives
+          .At("123 London Road")
+          .In("London")
+          .WithPostcode("SW12BC")
+        .Works
+          .At("Fabrikam")
+          .AsA("Engineer")
+          .Earning(123000);
 
-var ms = new MailService();
-await ms.SendEmail(email => email.From("foo@bar.com")
-    .To("bar@baz.com")
-    .Body("Hello, how are you?"));
+      Console.WriteLine(person);
