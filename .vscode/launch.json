@@ -2,28 +2,30 @@
     "version": "0.2.0",
     "configurations": [
         // {
-        //     "name": "C#: <project-name> Debug",
-        //     "type": "dotnet",
+        //     "name": "C#: multifunctional-builder Debug",
+        //     "type": "coreclr",
         //     "request": "launch",
-        //     "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+        //     "preLaunchTask": "build",
+        //     // Update the program path to point to the multifunctional-builder.dll
+        //     "program": "${workspaceFolder}/patterns/builder/multifunctional-builder/bin/Debug/net7.0/multifunctional-builder.dll",
+        //     "args": [],
+        //     // Update the current working directory (cwd) to the multifunctional-builder project
+        //     "cwd": "${workspaceFolder}/patterns/builder/multifunctional-builder",
+        //     "console": "internalConsole",
+        //     "stopAtEntry": false
         // },
         {
-            "name": "C#: multifunctional-builder Debug",
-            "type": "coreclr",
+            "name": "C#: functional-builder Debug",
+            "type": "dotnet",
             "request": "launch",
             "preLaunchTask": "build",
             // Update the program path to point to the multifunctional-builder.dll
-            "program": "${workspaceFolder}/patterns/builder/multifunctional-builder/bin/Debug/net7.0/multifunctional-builder.dll",
-            "args": [],
-            // Update the current working directory (cwd) to the multifunctional-builder project
-            "cwd": "${workspaceFolder}/patterns/builder/multifunctional-builder",
-            "console": "internalConsole",
-            "stopAtEntry": false
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach"
+            // "program": "${workspaceFolder}/patterns/builder/functional-builder/bin/Debug/net7.0/functional-builder.dll",
+            // "args": [],
+            // // Update the current working directory (cwd) to the multifunctional-builder project
+            // "cwd": "${workspaceFolder}/patterns/builder/functional-builder",
+            // "console": "internalConsole",
+            // "stopAtEntry": false
         }
     ]
 }
