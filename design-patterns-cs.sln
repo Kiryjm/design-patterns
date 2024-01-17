@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "multifunctional-builder", "patterns\builder\multifunctional-builder\multifunctional-builder.csproj", "{0C4C0F73-04BD-478F-990D-0CC5424E0BD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidPrinciplesApp", "solid-principles-app\SolidPrinciplesApp.csproj", "{30DB776D-7AB4-4CB5-BD66-CB155C455DB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C4C0F73-04BD-478F-990D-0CC5424E0BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4C0F73-04BD-478F-990D-0CC5424E0BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4C0F73-04BD-478F-990D-0CC5424E0BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4C0F73-04BD-478F-990D-0CC5424E0BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DB776D-7AB4-4CB5-BD66-CB155C455DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DB776D-7AB4-4CB5-BD66-CB155C455DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DB776D-7AB4-4CB5-BD66-CB155C455DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DB776D-7AB4-4CB5-BD66-CB155C455DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6017DD06-CA4C-4D4E-9A81-FFDDC6A5ADD0}
+	EndGlobalSection
+EndGlobal

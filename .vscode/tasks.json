@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/patterns-app/patterns-app.csproj",
+                "${workspaceFolder}/patterns/builder/multifunctional-builder/multifunctional-builder.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/patterns-app/patterns-appp.csproj",
+                "${workspaceFolder}/patterns/builder/multifunctional-builder/multifunctional-builder.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/patterns-app/patterns-app.csproj"
+                "${workspaceFolder}/patterns/builder/multifunctional-builder/multifunctional-builder.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

@@ -1,19 +1,22 @@
 {
     "version": "0.2.0",
     "configurations": [
+        // {
+        //     "name": "C#: <project-name> Debug",
+        //     "type": "dotnet",
+        //     "request": "launch",
+        //     "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+        // },
         {
-            // Use IntelliSense to find out which attributes exist for C# debugging
-            // Use hover for the description of the existing attributes
-            // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-            "name": ".NET Core Launch (console)",
+            "name": "C#: multifunctional-builder Debug",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/patterns-app/bin/Debug/net7.0/patterns-app.dll",
+            // Update the program path to point to the multifunctional-builder.dll
+            "program": "${workspaceFolder}/patterns/builder/multifunctional-builder/bin/Debug/net7.0/multifunctional-builder.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/patterns-app",
-            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            // Update the current working directory (cwd) to the multifunctional-builder project
+            "cwd": "${workspaceFolder}/patterns/builder/multifunctional-builder",
             "console": "internalConsole",
             "stopAtEntry": false
         },
