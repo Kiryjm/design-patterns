@@ -1,11 +1,17 @@
-﻿// class SomeBuilder : PersonBirthDateBuilder<SomeBuilder>
-// {
+﻿class SomeBuilder : PersonBirthDateBuilder<SomeBuilder>
+{
 
-// }
+}
 
-var me = Person.New
-     .Called("Dmitri")
-     .WorksAsA("Quant")
-     .Born(DateTime.UtcNow)
-     .Build();
-Console.WriteLine(me);
+internal class Program
+{
+     private static void Main(string[] args)
+     {
+          var me = Person.New
+       .Called("Dmitri")
+       .WorksAsA("Quant")
+       .Born(DateTime.UtcNow)
+       .Build();
+          Console.WriteLine(me);
+     }
+}
