@@ -15,7 +15,7 @@
         //     "stopAtEntry": false
         // },
         {
-            "name": "C#: functional-builder Debug",
+            "name": "C#: recursive-generics-builder Debug",
             "type": "dotnet",
             "request": "launch",
             "preLaunchTask": "build",
