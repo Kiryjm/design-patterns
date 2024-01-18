@@ -19,13 +19,12 @@
             "type": "dotnet",
             "request": "launch",
             "preLaunchTask": "build",
-            // Update the program path to point to the multifunctional-builder.dll
-            // "program": "${workspaceFolder}/patterns/builder/functional-builder/bin/Debug/net7.0/functional-builder.dll",
-            // "args": [],
-            // // Update the current working directory (cwd) to the multifunctional-builder project
-            // "cwd": "${workspaceFolder}/patterns/builder/functional-builder",
-            // "console": "internalConsole",
-            // "stopAtEntry": false
+        },
+        {
+            "name": "C#: functional-builder Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "preLaunchTask": "build",
         }
     ]
 }

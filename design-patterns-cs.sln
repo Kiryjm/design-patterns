@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidPrinciplesApp", "solid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "recursive-generics-builder", "patterns\builder\recursive-generics-builder\recursive-generics-builder.csproj", "{16256A87-7BB0-4CD9-BA09-B134636A8FC7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "functional-builder", "patterns\builder\functional-builder\functional-builder.csproj", "{1810388E-2E5D-4500-BAD0-3A9392339466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
