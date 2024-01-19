@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fabric", "fabric", "{8DD4D4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-fabric", "patterns\fabric\simple-fabric\simple-fabric.csproj", "{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async-fabric", "patterns\fabric\async-fabric\async-fabric.csproj", "{DB219349-AF43-4EA7-9358-E4927CED0206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB219349-AF43-4EA7-9358-E4927CED0206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB219349-AF43-4EA7-9358-E4927CED0206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB219349-AF43-4EA7-9358-E4927CED0206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB219349-AF43-4EA7-9358-E4927CED0206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +82,6 @@ Global
 		{B808C04A-0A9A-4661-AD19-3C08147030CB} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
 		{8DD4D45E-7557-4FCB-9C2D-9FB31B1322B9} = {C494DB77-5930-494F-9D18-24E8352441DE}
 		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D} = {8DD4D45E-7557-4FCB-9C2D-9FB31B1322B9}
+		{DB219349-AF43-4EA7-9358-E4927CED0206} = {8DD4D45E-7557-4FCB-9C2D-9FB31B1322B9}
 	EndGlobalSection
 EndGlobal
