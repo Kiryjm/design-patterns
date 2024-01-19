@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "builder", "builder", "{4020
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parameter-builder", "patterns\builder\parameter-builder\parameter-builder.csproj", "{6FE8F7B3-6B1E-4246-BCBE-398ED492DC8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class-builder", "patterns\builder\class-builder\class-builder.csproj", "{5C85C933-D125-475D-98CD-5686F3EAEC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{6FE8F7B3-6B1E-4246-BCBE-398ED492DC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FE8F7B3-6B1E-4246-BCBE-398ED492DC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FE8F7B3-6B1E-4246-BCBE-398ED492DC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C85C933-D125-475D-98CD-5686F3EAEC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C85C933-D125-475D-98CD-5686F3EAEC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C85C933-D125-475D-98CD-5686F3EAEC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C85C933-D125-475D-98CD-5686F3EAEC9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +51,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{40207EFF-C950-4E92-9E79-A28A0BE85380} = {C494DB77-5930-494F-9D18-24E8352441DE}
 		{6FE8F7B3-6B1E-4246-BCBE-398ED492DC8C} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
+		{5C85C933-D125-475D-98CD-5686F3EAEC9F} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
 	EndGlobalSection
 EndGlobal
