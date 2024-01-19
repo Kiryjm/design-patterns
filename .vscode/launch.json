@@ -25,6 +25,22 @@
             "type": "dotnet",
             "request": "launch",
             "preLaunchTask": "build",
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/patterns/builder/class-builder_v2.Tests/bin/Debug/netcoreapp3.1/class-builder_v2.Tests.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "externalConsole": false,
+            "internalConsoleOptions": "neverOpen"
         }
     ]
 }

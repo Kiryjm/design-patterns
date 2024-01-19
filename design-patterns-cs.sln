@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parameter-builder", "patter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class-builder_v1", "patterns\builder\class-builder_v1\class-builder_v1.csproj", "{5C85C933-D125-475D-98CD-5686F3EAEC9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class-builder_v2", "patterns\builder\class-builder_v2\class-builder_v2.csproj", "{8913B5CB-A1D0-45D2-9457-1DC27C1D0933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class-builder_v2.Tests", "patterns\builder\class-builder_v2.Tests\class-builder_v2.Tests.csproj", "{B808C04A-0A9A-4661-AD19-3C08147030CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{5C85C933-D125-475D-98CD-5686F3EAEC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C85C933-D125-475D-98CD-5686F3EAEC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C85C933-D125-475D-98CD-5686F3EAEC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8913B5CB-A1D0-45D2-9457-1DC27C1D0933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8913B5CB-A1D0-45D2-9457-1DC27C1D0933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8913B5CB-A1D0-45D2-9457-1DC27C1D0933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8913B5CB-A1D0-45D2-9457-1DC27C1D0933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B808C04A-0A9A-4661-AD19-3C08147030CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B808C04A-0A9A-4661-AD19-3C08147030CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B808C04A-0A9A-4661-AD19-3C08147030CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B808C04A-0A9A-4661-AD19-3C08147030CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +64,7 @@ Global
 		{40207EFF-C950-4E92-9E79-A28A0BE85380} = {C494DB77-5930-494F-9D18-24E8352441DE}
 		{6FE8F7B3-6B1E-4246-BCBE-398ED492DC8C} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
 		{5C85C933-D125-475D-98CD-5686F3EAEC9F} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
+		{8913B5CB-A1D0-45D2-9457-1DC27C1D0933} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
+		{B808C04A-0A9A-4661-AD19-3C08147030CB} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
 	EndGlobalSection
 EndGlobal
