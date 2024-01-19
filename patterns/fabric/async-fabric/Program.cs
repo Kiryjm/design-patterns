@@ -1,2 +1,2 @@
-﻿var foo = await Foo.CreateAsync("foo");
+﻿var foo = AsyncFacfory.Create<Foo>();
 Console.WriteLine(foo);
