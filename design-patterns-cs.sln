@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class-builder_v2", "pattern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class-builder_v2.Tests", "patterns\builder\class-builder_v2.Tests\class-builder_v2.Tests.csproj", "{B808C04A-0A9A-4661-AD19-3C08147030CB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fabric", "fabric", "{8DD4D45E-7557-4FCB-9C2D-9FB31B1322B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-fabric", "patterns\fabric\simple-fabric\simple-fabric.csproj", "{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,10 @@ Global
 		{B808C04A-0A9A-4661-AD19-3C08147030CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B808C04A-0A9A-4661-AD19-3C08147030CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B808C04A-0A9A-4661-AD19-3C08147030CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +74,7 @@ Global
 		{5C85C933-D125-475D-98CD-5686F3EAEC9F} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
 		{8913B5CB-A1D0-45D2-9457-1DC27C1D0933} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
 		{B808C04A-0A9A-4661-AD19-3C08147030CB} = {40207EFF-C950-4E92-9E79-A28A0BE85380}
+		{8DD4D45E-7557-4FCB-9C2D-9FB31B1322B9} = {C494DB77-5930-494F-9D18-24E8352441DE}
+		{0B208B77-F31D-4E3A-B4D6-DCCAB5BB298D} = {8DD4D45E-7557-4FCB-9C2D-9FB31B1322B9}
 	EndGlobalSection
 EndGlobal
