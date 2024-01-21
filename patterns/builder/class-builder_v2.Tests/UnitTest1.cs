@@ -5,12 +5,6 @@ public class Tests
     [TestFixture]
     public class FirstTestSuite
     {
-
-        string classString__ = @"public class Person
-{
-  public string Name;
-  public int Age;
-}";
         private static string Preprocess(string s)
         {
             return s.Trim()
