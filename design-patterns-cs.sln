@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prototype", "prototype", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serialization-copy", "patterns\prototype\serialization-copy\serialization-copy.csproj", "{3E2D7A19-67BE-4EB7-9754-C8F4B489F8CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serialization-fabric", "patterns\prototype\serialization-fabric\serialization-fabric.csproj", "{3B9B203D-5AE5-423A-9E32-F0E7ABBBCADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{3E2D7A19-67BE-4EB7-9754-C8F4B489F8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2D7A19-67BE-4EB7-9754-C8F4B489F8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2D7A19-67BE-4EB7-9754-C8F4B489F8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9B203D-5AE5-423A-9E32-F0E7ABBBCADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9B203D-5AE5-423A-9E32-F0E7ABBBCADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9B203D-5AE5-423A-9E32-F0E7ABBBCADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9B203D-5AE5-423A-9E32-F0E7ABBBCADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,5 +120,6 @@ Global
 		{7B531A17-7B00-4A01-A88F-88D1C531979F} = {8DD4D45E-7557-4FCB-9C2D-9FB31B1322B9}
 		{0572E997-8957-4241-A994-E90683FF2457} = {C494DB77-5930-494F-9D18-24E8352441DE}
 		{3E2D7A19-67BE-4EB7-9754-C8F4B489F8CF} = {0572E997-8957-4241-A994-E90683FF2457}
+		{3B9B203D-5AE5-423A-9E32-F0E7ABBBCADB} = {0572E997-8957-4241-A994-E90683FF2457}
 	EndGlobalSection
 EndGlobal
