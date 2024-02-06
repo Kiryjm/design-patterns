@@ -5,7 +5,7 @@
     Bar = new Bar { Value = 321 }
 };
 
-var foo2 = foo.DeepCopy();
+var foo2 = foo.DeepGroBufClone();
 var foo3 = foo.DeepCopyXml();
 foo2.Whatever = "brg";
 // foo2.Bar.Value = 1000;

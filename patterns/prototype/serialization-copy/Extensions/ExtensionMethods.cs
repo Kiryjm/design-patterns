@@ -63,6 +63,15 @@ public static class ExtensionMethods
         }
     }
 
+    public static T DeepGroBufClone<T>(this T obj)
+    {
+        var serializer = new Serializer(new PropertiesExtractor());
+        var data = serializer.Serialize(obj);
+        var result = serializer.Deserialize<T>(data);
+
+        return result;
+    }
+
     private static T DeepCopyHelper<T>(T source)
     {
         if (source == null)

@@ -7,7 +7,7 @@ public class EmployeeFactory
 
     private static Employee NewEmployee(Employee proto, string name, int suite)
     {
-        var copy = proto.DeepCopyXml();
+        var copy = proto.DeepGroBufClone();
         copy.Name = name;
         copy.Address.Suite = suite;
 
